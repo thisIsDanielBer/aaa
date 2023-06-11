@@ -5,7 +5,7 @@ import pandas as pd
 def characters_by_ep():
   query = """
 query{
-  characters(filter: {name: "morty"}){
+  characters{
     results {
       name
       episode{
